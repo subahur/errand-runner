@@ -1,4 +1,54 @@
-h1 {
+body {
 
-	color:red;
+	background-image: url("http://alysiamontano.com/wp-content/uploads/2013/01/Blu-BKGD.jpg");
+	color: #000305;
+	font-size: 87.5%;
+	font-family: Arial;
+	line-height:1.5;
+	text-align: left;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:link, a:visited {
+
+}
+
+.body{
+
+	margin: 0 auto;
+	width: 70%;
+	clear:both;
+}
+
+.mainHeader nav{
+	background-color: #666;
+	height: 40px;
+	border-radius: 5px;
+}
+
+.mainHeader nav ul{
+	list-style: none;
+	margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+	float:left;
+	display:inline;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #FFF;
+	display: inline-block;
+	padding: 10px 25px;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active{
+	background-color: #CF5C3F;
+}
+
+.mainHeader nav ul li a {
+	border-radius:5px;
 }
