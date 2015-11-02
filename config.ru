@@ -1,3 +1,2 @@
 require './app'
-
-run ErrandRunner
+run Sinatra::Application

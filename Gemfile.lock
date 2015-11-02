@@ -1,4 +1,5 @@
 GEM
+  remote: https://rubygems.org/
   specs:
     activemodel (4.2.4)
       activesupport (= 4.2.4)
@@ -40,6 +41,8 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord
+  rack
   rake
+  sinatra
   sinatra-activerecord
   sqlite3
