@@ -20,9 +20,9 @@ get '/' do
 	erb :home
 end
 
-#get '/signup' do
-#	erb :signup
-#end
+get '/signup' do
+	erb :signup
+end
 
 
 #post '/signup' do
