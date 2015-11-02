@@ -30,7 +30,7 @@ post '/signup' do
   @user_name = params[:user_name]
   @email = params[:email]
   @password = params[:password]
-  @user = User.new({:name => @name,:user_name => @user_name,:email => @email,:password => @password })
+  @user = User.new({:name => @name,:user_name => @user_name,:email => @email,:password => @password})
   if @user.save
     'done'
     #redirect '/thankyou'
