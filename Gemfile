@@ -6,4 +6,6 @@ gem 'sinatra'
 gem 'rake'
 gem 'rack'
 gem 'pg'
+
+ruby '2.0.0'
 #gem 'sqlite3'
