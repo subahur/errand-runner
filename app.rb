@@ -1,6 +1,6 @@
 require 'sinatra'
-require 'sinatra/activerecord'
-require_relative 'models/user.rb'
+#require 'sinatra/activerecord'
+#require_relative 'models/user.rb'
 
 
 helpers do
@@ -20,21 +20,21 @@ get '/' do
 	erb :home
 end
 
-get '/signup' do
-	erb :signup
-end
+#get '/signup' do
+#	erb :signup
+#end
 
 
-post '/signup' do
-  new_user = User.new(params)
-  if new_user.save
-    redirect '/thankyou'
-  else
-    flash[:notice] = "Error in signup"
-    redirect '/signup'
-  end
-end
+#post '/signup' do
+#  new_user = User.new(params)
+#  if new_user.save
+#    redirect '/thankyou'
+#  else
+#    flash[:notice] = "Error in signup"
+#    redirect '/signup'
+#  end
+#end
 
-get '/thankyou'do
-  erb :thankyou
-end
+#get '/thankyou'do
+#  erb :thankyou
+#end
