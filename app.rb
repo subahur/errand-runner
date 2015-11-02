@@ -28,7 +28,8 @@ end
 post '/signup' do
   new_user = User.new(params)
   if new_user.save
-    redirect '/thankyou'
+    'done'
+    #redirect '/thankyou'
   else
     #flash[:notice] = "Error in signup"
     redirect '/signup'
