@@ -26,7 +26,7 @@ end
 
 
 post '/signup' do
-  @user = User.new({:name => params[:fullname],:user_name => params[:username],:email => params[:emailadd],:password => params[:pass]})
+  @user = User.new({:user_name => params[:username],:email => params[:emailadd]})
   if @user.save
     redirect '/thankyou'
   else
