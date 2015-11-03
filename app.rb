@@ -35,6 +35,11 @@ post '/signup' do
   end
 end
 
+get '/users' do
+  @users = User.all
+  erb :users
+end
+
 get '/thankyou'do
   erb :thankyou
 end
