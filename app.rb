@@ -28,8 +28,7 @@ end
 post '/signup' do
   @user = User.new({:name => params[:fullname],:user_name => params[:username],:email => params[:emailadd],:password => params[:pass]})
   if @user.save
-    'done'
-    #redirect '/thankyou'
+    redirect '/thankyou'
   else
     #flash[:notice] = "Error in signup"
     redirect '/signup'
