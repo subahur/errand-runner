@@ -7,11 +7,16 @@ body {
 }
 
 .backholder {
-	opacity:0.7;
-	background-color: grey;
+	opacity:0.55;
+	background-color: black;
 
 }
 
 span{
-	color:blue;
+	color:white;
+}
+
+h1 {
+	color: #104E8B;
+	font-family: "Times New Roman", Georgia, Serif;
 }
